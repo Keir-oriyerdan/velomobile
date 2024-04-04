@@ -1,0 +1,357 @@
+/* desktop */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        margin: 0;
+
+    }
+    .footer { 
+        margin: 0%;
+    }
+    
+    .all{
+        background: #5286B6;
+        block-size: 300px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .divFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* newsletter */
+    .titreNews{
+        font-family: 'Josefin Sans', bold;
+        padding-top: 0%;
+        color: white;
+    }
+
+    .texteNews{
+        color: white;
+    }
+
+    .envoi {
+        width: 8%;
+    }
+
+    .formNewsletter{
+        margin: 3%;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 5%;
+    }
+
+    /* contact */
+    .divFooterContact{
+        font-family: 'Josefin Slab', serif;
+        padding-left: 200px;
+    }
+
+    .titreContact {
+        font-family: 'Josefin Sans', bold;
+        color: white;
+        margin-top: 18%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .infosMenu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .infosMenu ul li {
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+
+    .iconsContact{
+        width: 6%;
+        margin-right: 10px;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+
+    /* logo et reseaux sociaux */
+    .divFooterLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0%;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .logoContainer{
+        width: 97px; 
+        height: 100px;
+        background-color: white;
+        border-radius: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13%;
+    }
+
+    .logo {
+        width: 105%;
+        margin-top: -10%;
+
+    }
+
+    .socialMenu {
+        display: flex;
+        padding-left: 0%;
+        
+    }
+
+    .divFooter ul li {
+        display: flex;
+        align-items: center;
+        color: white;
+        width: 15%;
+      }
+
+    .divFooter{
+        margin-right:250px;
+    }
+   
+    .iconsSocialMedia {
+        width: 20px;
+        height: 20px;
+    }
+
+    
+    .mentions {
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Josefin Slab', serif;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal; 
+    }
+
+
+    /* Bouton retour vers le haut */
+    .buttonTop{
+        position: relative;
+        top: 72px;
+        left: 2900%;
+    }
+
+    .Top{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .responssivefooter {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0%;
+        max-width: 100%; 
+    }
+
+    footer {
+        margin: 0%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .all {
+        background: #5286B6;
+        height: auto; 
+        flex-shrink: 0;
+        width: 100%; 
+    }
+
+    .divFooterContact{
+        font-family: 'Josefin Slab', serif;
+    }
+
+    .divFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+/* newsletter */
+.titreNews{
+    font-family: 'Josefin Sans', bold;
+    padding-top: 15%;
+    color: white;
+}
+
+.texteNews{
+    color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+.envoi {
+    width: 8%;
+}
+
+.formNewsletter{
+    margin: 3%;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+/* contact */
+
+.titreContact {
+    font-family: 'Josefin Sans', bold;
+    color: white;
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+}
+
+.infosMenu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infosMenu ul li {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+.iconsContact{
+    width: 6%;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ModelsVelo {
+    display: flex; /* Utilisez flexbox */
+    justify-content: space-between; /* Ajustez l'espacement entre les éléments */
+  }
+
+  .ModelsVelo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ClassicVelo,
+  .SportVelo {
+    flex: 1; /* Cela permet à chaque élément de prendre autant d'espace que possible */
+  }
+
+  .ClassicVelo img,
+  .SportVelo img {
+    max-width: 100%; /* Assurez-vous que les images n'excèdent pas leur conteneur */
+  }
+
+  .ClassicVelo h2,
+  .SportVelo h2 {
+    font-family: 'Josefin Sans', bold;
+    text-align: center; /* Centrez le texte si nécessaire */
+  }
+
+/* logo et reseaux sociaux */
+.divFooterLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoContainer{
+    width: 97px; 
+    height: 100px;
+    background-color: white;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}
+
+.logo {
+    width: 105%;
+    margin-top: -10%;
+
+}
+
+.socialMenu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: -13%;    }
+
+
+.divFooter ul li {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 15%;
+  }
+
+.iconsSocialMedia {
+    width: 73%;
+}
+
+.iconsSocialMediaDaily{
+    width: 7%;
+}
+
+.mentions {
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Josefin Slab', serif;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal; 
+    margin-bottom: 8%;
+    
+}
+
+    .buttonTop {
+        margin: 5% 0;
+        margin-left: 77%;
+    }
+
+    .Top {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

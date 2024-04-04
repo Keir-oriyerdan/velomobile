@@ -1,0 +1,105 @@
+
+/* Titre */
+h1 {
+  font-size: 24px;
+  color: red;
+
+}
+
+.confirmation-animation {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 40;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Description */
+p {
+  font-size: 16px;
+}
+
+/* Champs de saisie */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Bouton */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0055b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Messages de confirmation et d'erreur */
+.confirmation-message, .error-message {
+  display: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.confirmation-message {
+  color: #4caf50;
+}
+
+.error-message {
+  color: #ff5722;
+}
+
+/* Styles pour centrer le formulaire au milieu de la page */
+.container {
+  max-width: 320px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin: 0 auto; /* Centre le formulaire horizontalement */
+}
+
+/* Styles pour aligner le texte "NEWSLETTER" à droite de la case à cocher */
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.checkbox-container label {
+  flex: 2;
+  text-align: left;
+}
+
+
+/* Styles pour les écrans de taille moyenne (tablette) */
+@media (max-width: 768px) {
+  .container {
+      max-width: 90%;  /* Ajuste la largeur pour les tablettes */
+  }
+}
+
+/* Styles pour les écrans de petite taille (mobile) */
+@media (max-width: 480px) {
+  .container {
+      max-width: 90%;  /* Ajuste la largeur pour les mobiles */
+  }
+}
